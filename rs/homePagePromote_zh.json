@@ -1,0 +1,21 @@
+{
+	"userGuide":{
+		"contentUrl":""
+	},
+	"productPromotion":[
+		{
+		"DevName": "Print Pen",
+		"DevVersion": "version 1.0",
+		"CoverUrl": "",
+		"ContentUrl": "",
+		"ContentDisplayType": "html"
+		},
+		{
+		"DevName": "Print Pen",
+		"DevVersion": "version 1.0",
+		"CoverUrl": "",
+		"ContentUrl": "",
+		"ContentDisplayType": "html"
+		}
+	]
+}
