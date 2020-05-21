@@ -1,5 +1,4 @@
-{
-	"Specification": [
+[
 		{
 			"DevName": "设备1",
 			"DevVersion": "1.0",
@@ -18,5 +17,4 @@
 			"ContentDisplayType": "html",
 			"Heat": "1052"
 		}
-	]
-}
+]
