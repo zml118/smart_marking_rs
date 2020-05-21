@@ -4,15 +4,13 @@
 	},
 	"productPromotion":[
 		{
-		"DevName": "Print Pen",
-		"DevVersion": "version 1.0",
+		"title": "Print Pen",
 		"CoverUrl": "",
 		"ContentUrl": "",
 		"ContentDisplayType": "html"
 		},
 		{
-		"DevName": "Print Pen",
-		"DevVersion": "version 1.0",
+		"title": "Print Pen",
 		"CoverUrl": "",
 		"ContentUrl": "",
 		"ContentDisplayType": "html"
