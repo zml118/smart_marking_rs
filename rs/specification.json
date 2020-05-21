@@ -1,17 +1,17 @@
 [
 	{
-		"DevName": "设备1",
-		"DevVersion": "1.0",
-		"Introduction": "设备1的简介",
+		"DevName": "Print Pen",
+		"DevVersion": "版本 1.0",
+		"Introduction": "Print Pen 1.0 的简介",
 		"CoverUrl": "",
 		"ContentUrl": "www.github.com",
 		"ContentDisplayType": "html",
 		"Heat": "10012"
 	},
 	{
-		"DevName": "设备2",
-		"DevVersion": "1.0",
-		"Introduction": "设备2的简介",
+		"DevName": "Print Pen",
+		"DevVersion": "版本 2.0",
+		"Introduction": "Print Pen 1.0 的简介",
 		"CoverUrl": "",
 		"ContentUrl": "www.baidu.com",
 		"ContentDisplayType": "html",
