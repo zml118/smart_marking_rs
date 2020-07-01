@@ -1,139 +1,199 @@
-#减价的例子
-Markdown允许您轻松地在应用程序中包含格式化的文本、图像，甚至格式化的Dart代码。
-# #标题
+# Markdown Example
+Markdown allows you to easily include formatted text, images, and even formatted Dart code in your app.
+
+## Titles
+
 Setext-style
-' ' '
-这是H1
-= = = = = = = = = = = = =
-这是H2
+
+```
+This is an H1
+=============
+
+This is an H2
 -------------
-' ' '
+```
+
 Atx-style
-' ' '
-#这是H1
-这是H2
-这是一个H6
-' ' '
-选择有效的标题:
-- [] ' # hello '
-——[x]“#你好”
-# #链接
-(谷歌主页)(谷歌)
-' ' '
-(内嵌样式)(https://www.google.com)
-(参考格式)(谷歌)
-' ' '
-# #的图片
-!(颤振标志)(/ dart-lang / site-shared /主/ src / _assets /图像/颤振/图标/ 64. png)
-# #表
-| | |语法的结果
+
+```
+# This is an H1
+
+## This is an H2
+
+###### This is an H6
+```
+
+Select the valid headers:
+
+- [ ] `# hello`
+- [x] `#hello`
+
+## Links
+
+[Google's Homepage][Google]
+
+```
+[inline-style](https://www.google.com)
+
+[reference-style][Google]
+```
+
+## Images
+
+![Flutter logo](/dart-lang/site-shared/master/src/_assets/image/flutter/icon/64.png)
+
+## Tables
+
+|Syntax                                 |Result                               |
 |---------------------------------------|-------------------------------------|
-| ' *斜体1 * 1 * | | *斜体
-|“_italic 2 _”| _italic 2 _ |
-| * *大胆1 * *的* * | | * *大胆的1
-|“__bold 2 __”| __bold 2 _ |
-这是一个~~strikethrough~~ '这是一个~~strikethrough~~ |
-| ' * * *斜体加粗1”* * * | * * * 1 * * * |斜体加粗
-|“___italic大胆2 ___”| ___italic大胆2 |
-| ' * * * ~ ~斜体加粗加删除线1 ~ ~ * * *的* * * | ~ ~斜体加粗加删除线1 ~ ~ * * * |
-| ~ ~ * * *斜体加粗加删除线的2 * * * ~ ~ | ~ ~ * * *斜体加粗加删除线2 * * * ~ ~ |
-# #样式
-将文本样式设置为斜体、粗体、~~删除线~~或“内联代码”。
--使用项目符号列表
-——为了更好地阐明
-——你的点
-# #代码块
-格式化省道代码看起来真的很漂亮:
-' ' '
-void main () {
-runApp (MaterialApp (
-家:支架(
-身体:减价(数据:markdownData),
-),
-));
+|`*italic 1*`                           |*italic 1*                           |
+|`_italic 2_`                           | _italic 2_                          |
+|`**bold 1**`                           |**bold 1**                           |
+|`__bold 2__`                           |__bold 2__                           |
+|`This is a ~~strikethrough~~`          |This is a ~~strikethrough~~          |
+|`***italic bold 1***`                  |***italic bold 1***                  |
+|`___italic bold 2___`                  |___italic bold 2___                  |
+|`***~~italic bold strikethrough 1~~***`|***~~italic bold strikethrough 1~~***|
+|`~~***italic bold strikethrough 2***~~`|~~***italic bold strikethrough 2***~~|
+
+## Styling
+Style text as _italic_, __bold__, ~~strikethrough~~, or `inline code`.
+
+- Use bulleted lists
+- To better clarify
+- Your points
+
+## Code blocks
+Formatted Dart code looks really pretty too:
+
+```
+void main() {
+  runApp(MaterialApp(
+    home: Scaffold(
+      body: Markdown(data: markdownData),
+    ),
+  ));
 }
-' ' '
-# #减价小部件
-这是一个如何创建自己的Markdown小部件的例子:
-减记(数据:“你好_world_ !”);
-享受吧!
-(谷歌):https://www.google.com/
-# #换行符
-这是一个如何创建换行符的例子(制表符或两个空格):
-1号线
-#减价的例子
-Markdown允许您轻松地在应用程序中包含格式化的文本、图像，甚至格式化的Dart代码。
-# #标题
+```
+
+## Markdown widget
+
+This is an example of how to create your own Markdown widget:
+
+    Markdown(data: 'Hello _world_!');
+
+Enjoy!
+
+[Google]: https://www.google.com/
+
+## Line Breaks
+
+This is an example of how to create line breaks (tab or two whitespaces):
+
+line 1
+  # Markdown Example
+Markdown allows you to easily include formatted text, images, and even formatted Dart code in your app.
+
+## Titles
+
 Setext-style
-' ' '
-这是H1
-= = = = = = = = = = = = =
-这是H2
+
+```
+This is an H1
+=============
+
+This is an H2
 -------------
-' ' '
+```
+
 Atx-style
-' ' '
-#这是H1
-这是H2
-这是一个H6
-' ' '
-选择有效的标题:
-- [x] ' # hello '
-- [] ' #hello '
-# #链接
-(谷歌主页)(谷歌)
-' ' '
-(内嵌样式)(https://www.google.com)
-(参考格式)(谷歌)
-' ' '
-# #的图片
-!(颤振标志)(/ dart-lang / site-shared /主/ src / _assets /图像/颤振/图标/ 64. png)
-# #表
-| | |语法的结果
+
+```
+# This is an H1
+
+## This is an H2
+
+###### This is an H6
+```
+
+Select the valid headers:
+
+- [x] `# hello`
+- [ ] `#hello`
+
+## Links
+
+[Google's Homepage][Google]
+
+```
+[inline-style](https://www.google.com)
+
+[reference-style][Google]
+```
+
+## Images
+
+![Flutter logo](/dart-lang/site-shared/master/src/_assets/image/flutter/icon/64.png)
+
+## Tables
+
+|Syntax                                 |Result                               |
 |---------------------------------------|-------------------------------------|
-| ' *斜体1 * 1 * | | *斜体
-|“_italic 2 _”| _italic 2 _ |
-| * *大胆1 * *的* * | | * *大胆的1
-|“__bold 2 __”| __bold 2 _ |
-这是一个~~strikethrough~~ '这是一个~~strikethrough~~ |
-| ' * * *斜体加粗1”* * * | * * * 1 * * * |斜体加粗
-|“___italic大胆2 ___”| ___italic大胆2 |
-| ' * * * ~ ~斜体加粗加删除线1 ~ ~ * * *的* * * | ~ ~斜体加粗加删除线1 ~ ~ * * * |
-| ~ ~ * * *斜体加粗加删除线的2 * * * ~ ~ | ~ ~ * * *斜体加粗加删除线2 * * * ~ ~ |
-# #样式
-将文本样式设置为斜体、粗体、~~删除线~~或“内联代码”。
--使用项目符号列表
-——为了更好地阐明
-——你的点
-# #代码块
-格式化省道代码看起来真的很漂亮:
-' ' '
-void main () {
-runApp (MaterialApp (
-家:支架(
-身体:减价(数据:markdownData),
-),
-));
+|`*italic 1*`                           |*italic 1*                           |
+|`_italic 2_`                           | _italic 2_                          |
+|`**bold 1**`                           |**bold 1**                           |
+|`__bold 2__`                           |__bold 2__                           |
+|`This is a ~~strikethrough~~`          |This is a ~~strikethrough~~          |
+|`***italic bold 1***`                  |***italic bold 1***                  |
+|`___italic bold 2___`                  |___italic bold 2___                  |
+|`***~~italic bold strikethrough 1~~***`|***~~italic bold strikethrough 1~~***|
+|`~~***italic bold strikethrough 2***~~`|~~***italic bold strikethrough 2***~~|
+
+## Styling
+Style text as _italic_, __bold__, ~~strikethrough~~, or `inline code`.
+
+- Use bulleted lists
+- To better clarify
+- Your points
+
+## Code blocks
+Formatted Dart code looks really pretty too:
+
+```
+void main() {
+  runApp(MaterialApp(
+    home: Scaffold(
+      body: Markdown(data: markdownData),
+    ),
+  ));
 }
-' ' '
-# #减价小部件
-这是一个如何创建自己的Markdown小部件的例子:
-减记(数据:“你好_world_ !”);
-享受吧!
-(谷歌):https://www.google.com/
-# #换行符
-这是一个如何创建换行符的例子(制表符或两个空格):
-1号线
+```
+
+## Markdown widget
+
+This is an example of how to create your own Markdown widget:
+
+    Markdown(data: 'Hello _world_!');
+
+Enjoy!
+
+[Google]: https://www.google.com/
+
+## Line Breaks
+
+This is an example of how to create line breaks (tab or two whitespaces):
+
+line 1
   
    
-第2行
+line 2
   
   
   
-3号线
+line 3
    
-第2行
+line 2
   
   
   
-3号线
+line 3
