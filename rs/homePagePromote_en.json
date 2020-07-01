@@ -1,6 +1,7 @@
 {
 	"userGuide":{
-		"contentUrl":"https://zml118.github.io/rs/homePagePromote/en/userGuide/index.md"
+		"contentUrl":"https://zml118.github.io/rs/homePagePromote/en/userGuide/index.md",
+		"ContentDisplayType": "markdown"
 	},
 	"productPromotion":[
 		{
