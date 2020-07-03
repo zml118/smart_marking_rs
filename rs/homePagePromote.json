@@ -6,15 +6,15 @@
 	"productPromotion":[
 		{
 		"title": "Print Pen",
-		"CoverUrl": "",
-		"ContentUrl": "",
-		"ContentDisplayType": "html"
+		"CoverUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/1.png",
+		"ContentUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/1.md",
+		"ContentDisplayType": "markdown"
 		},
 		{
 		"title": "Print Pen",
-		"CoverUrl": "",
-		"ContentUrl": "",
-		"ContentDisplayType": "html"
+		"CoverUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/1.png",
+		"ContentUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/2.md",
+		"ContentDisplayType": "markdown"
 		}
 	]
 }
