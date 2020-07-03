@@ -5,13 +5,13 @@
 	},
 	"productPromotion":[
 		{
-		"title": "Print Pen",
+		"title": "",
 		"CoverUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/1.png",
 		"ContentUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/1.md",
 		"ContentDisplayType": "markdown"
 		},
 		{
-		"title": "Print Pen",
+		"title": "",
 		"CoverUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/2.png",
 		"ContentUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/2.md",
 		"ContentDisplayType": "markdown"
