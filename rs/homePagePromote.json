@@ -1,17 +1,18 @@
 {
 	"userGuide":{
-		"contentUrl":"https://zml118.github.io/rs/homePagePromote/%LANG/userGuide/index.md",
+		"ContentUrl":"https://zml118.github.io/rs/homePagePromote/%LANG/userGuide/index.md",
+		"CoverUrl":"https://zml118.github.io/rs/homePagePromote/%LANG/userGuide/bg.png",
 		"ContentDisplayType": "markdown"
 	},
 	"productPromotion":[
 		{
-		"title": "",
+		"Title": "",
 		"CoverUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/1.png",
 		"ContentUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/1.md",
 		"ContentDisplayType": "markdown"
 		},
 		{
-		"title": "",
+		"Title": "",
 		"CoverUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/2.png",
 		"ContentUrl": "https://zml118.github.io/rs/homePagePromote/%LANG/productPromotion/2.md",
 		"ContentDisplayType": "markdown"
