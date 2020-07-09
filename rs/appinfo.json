@@ -1,6 +1,8 @@
 {     
     "name": "Smart Marking",
-    "version": "1.0.1", 
-    "url":"https://zml118.github.io/rs/pack/app-release.apk",
-    "curVersionBrief":"更新字体异常bug\n添加蓝牙扫描列表\n"
+    "android_versionNum": "2", 
+	"ios_versionNum": "2", 
+    "android_appUrl":"https://zml118.github.io/rs/pack/app-release.apk",
+    "android_versionBrief":"更新字体异常bug\n添加蓝牙扫描列表\n",
+	"ios_versionBrief":"更新字体异常bug\n添加蓝牙扫描列表\n"
 }
